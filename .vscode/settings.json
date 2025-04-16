@@ -36,13 +36,23 @@
   "vitest.enable": true,
   "testing.autoRun.mode": "rerun",
   "svelte.enable-ts-plugin": true,
-  "githubPullRequests.ignoredPullRequestBranches": ["develop"],
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "develop"
+  ],
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "tailwindCSS.classAttributes": ["class", "className", ".*Classes"],
-  "tailwindCSS.experimental.classRegex": [
-    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    ".*Classes"
   ],
-  "tailwindCSS.emmetCompletions": true
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "([\"'`][^\"'`]*.*?[\"'`])",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "sarif-viewer.connectToGithubCodeScanning": "on"
 }
